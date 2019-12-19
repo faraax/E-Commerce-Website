@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+ieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: center;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	background:url(../Images/bg.jpg); 
+	background-repeat:no-repeat; 
+	background-attachment:fixed; 
+	background-position:center;
+	margin: 0; 
+    padding: 0;  
+    font-family: 'Roboto', sans-serif; 
+    font-size: 13px; 
+    line-height: 21px;
+    position: relative;}
+.main_wrapper {
+	
+	width:1000px;
+	height:auto;
+	margin:auto;
+	
+	}
+	
+.header_wrapper {
+	width:1000px;
+	height:100px;
+	background:white;	
+		}
+		#navbar {
+			width:1000px;
+			height:50px;
+			background:#9CE7EB;
+			color:#5FC7FE;
+			
+			}
+		#menu {
+				padding:0;
+				line-height:36px;
+				margin-top:5px;
+				float:left;
+				}
+				#menu li {
+					list-style:none;
+					display:inline;
+					}
+				#menu a {
+					color:#FFFFFF;
+					text-decoration:none;
+					font-size:18px;
+					margin:5px;
+					padding:10px;
+					}
+				#menu a:hover {
+					text-decoration:underline;
+					color:#333;
+					font-weight:bolder;
+					}
+					#form {float:right; line-height:50px; padding-right:5px;}
+		.content_wrapper{
+			width:1000px;
+			height:auto;
+			background:#000;
+			
+			}
+			#right_contant {
+			width:750px;
+			background:#FCC;
+			float:right;
+			}
+			#left_contant {
+			width:250px;
+			background:#000;
+			float:left;
+			}
+			.footer {
+			width:1000px;
+			background:#999;
+			clear:both;
+			}
+		#sidebar_title{
+			background:#FFF;
+			color:#000;
+			padding:12px;
+			font-size:22px;
+			font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif; 
+			text-align:center;
+			}
+			
+		#cats{
+			color:#FFF;
+			text-align:center;
+			padding:10px;
+			font-size:18px;
+			}
+			#cats li {list-style:none; margin:05px;}
+			#cats a {color:#FFF; font-size:14px; text-decoration:none; margin:05px; padding:10px;}
+			#cats a:hover {color:#FF3300; text-decoration:underline; font-weight:bold;}
+
+
+		#headline{background:#000; color:#FFF;height:45px; width:750px; padding:10px}
+		#headline_content {float:right; position:relative;}
+		
+		
+		#products_box {
+			width:750px;
+			padding:05px;
+			margin_left:25px;
+			margin_top:05px;
+			margin_bottom:05px;
+			text-align:center;
+			
+			}
+			#single_product{float:left; padding:10px;}
+			#single_product img{border: 2px solid #333;}
+/*body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+ /* background-image: url(../Images/bg.jpg);
+
+  /* Add the blur effect */
+/*  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  /*height: 100%; 
+
+  /* Center and scale the image nicely */
+  /*background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+/*.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  /*background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  /*color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}

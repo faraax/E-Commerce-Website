@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+<input class="w3-input w3-hover-green" type="text">
+<input class="w3-input w3-border w3-hover-red" type="text">
+<input class="w3-input w3-border w3-hover-blue" type="text">
+
+
+.input button{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
